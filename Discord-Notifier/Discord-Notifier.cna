@@ -2,6 +2,7 @@
 # Description : Discord WebHook Notifier for Cobalt Strike Agents
 # Written purely because there's no actual Notifier without being based on a side python script
 
+
 on beacon_initial {
         $DiscordHook = '<WEBHOOK>';
         $teamserver_hostname = "127.0.0.1 Team Server";
