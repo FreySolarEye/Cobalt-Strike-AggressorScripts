@@ -4,7 +4,7 @@ Discord WebHook integration, it sends initial beacon agent notification over to 
 
 # How to configure?
 
-1. Edit Discord-Notifier.cna and change the **$DiscordHook** environmental variable to match tour Discord Chanel WebHook
+1. Edit Discord-Notifier.cna and change the **$DiscordHook** environmental variable to match your Discord Chanel WebHook
 
 
 # Discord notification on Beacon Initial
