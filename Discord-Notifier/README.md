@@ -9,7 +9,7 @@ Discord WebHook integration, it sends initial beacon agent notification over to 
 
 # Discord notification on Beacon Initial
 
-!{Initial Detonation Demo}(https://i.im.ge/2022/09/17/11Gkbp.InitialNotify.png)
+![Initial Detonation Demo](https://i.im.ge/2022/09/17/11Gkbp.InitialNotify.png)
 
 
 
