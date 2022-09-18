@@ -8,12 +8,12 @@ Discord WebHook integration, it sends initial beacon agent notification over to 
 
 2. Load the script on Cobalt Strike via the Script Manager : 
 
-![Cobalt Strike Script Loading](https://i.im.ge/2022/09/17/11emgq.Cobalt-Loading-Path.png)
+![Cobalt Strike Script Loading](https://i.ibb.co/8B3NQQx/Cobalt-Loading-Path.png)
 
 
 # Discord notification on Beacon Initial
 
-![Initial Detonation Demo](https://i.im.ge/2022/09/17/11Gkbp.InitialNotify.png)
+![Initial Detonation Demo](https://i.ibb.co/wzfGcQq/Initial-Notify.png)
 
 
 
