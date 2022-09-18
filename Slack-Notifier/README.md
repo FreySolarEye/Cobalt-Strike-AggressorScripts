@@ -11,7 +11,7 @@ Slack WebHook integration, it sends initial beacon agent notification over to Sl
 3. Load the Slack-Notifier.cna on Cobalt Strike
 
 
-#  Slack otification on Beacon Initial
+#  Slack notification on Beacon Initial
 
 
 ![Initial Detonation Demo](https://i.ibb.co/wKngWnP/slack-trigger.png)
