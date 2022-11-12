@@ -29,5 +29,5 @@ Telegram WebHook integration, it sends initial beacon agent notification over to
 #  Telegram notification on Beacon Initial
 
 
-![Initial Detonation Demo](https://i.ibb.co/Kq4wrtx/Telegram-Initial-Detonation.png)
+![Initial Detonation Demo](https://i.ibb.co/Wkv71bP/Telegram-Initial-Detonation.png)
 
