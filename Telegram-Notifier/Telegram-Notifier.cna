@@ -5,8 +5,8 @@
 
 # Telegram Base Environmental Variables
 
-$TelegramBotToken = '5401763009:AAFYsZFuYRCQKsW06cquVuV07nNYztvn1T0';    
-$TelegramChatID = '-1001721866812';
+$TelegramBotToken = 'BotTokenHere';    
+$TelegramChatID = 'ChatIDHere';
 
 
 on beacon_initial {
